@@ -1,0 +1,23 @@
+.pokemon{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  p{
+    text-align: center;
+  }
+  &-img{
+    margin-bottom: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  &-title{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+  &-chart{
+    margin: 2em 0;
+  }
+}

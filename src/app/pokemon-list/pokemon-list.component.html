@@ -1,0 +1,13 @@
+
+<div class="content">
+<div class="grid">
+<mat-card *ngFor="let pokemon of pokemons" routerLink='/{{pokemon.id}}' class="pokemons">
+<img class="pokemons-img" src="/assets/images/{{pokemon.id|number:'3.0'}}.png" alt="">
+<p class="pokemons-title">{{pokemon.name.japanese}}</p>
+<p class="pokemons-type">
+<span *ngFor="let pokType of pokemon.type">{{pokType|type}}</span>
+</p>
+</mat-card>
+
+</div>
+</div>

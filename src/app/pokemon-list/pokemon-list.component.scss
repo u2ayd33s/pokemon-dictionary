@@ -1,0 +1,23 @@
+.grid{
+display: grid;
+gap: 24px;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.pokemons{
+  ::ng-deep{
+    .mat-card{cursor: pointer !important;}
+  }
+  p{
+    text-align: center;
+  }
+  &-img{
+    margin-bottom: 16px;
+  }
+  &-title{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+}
